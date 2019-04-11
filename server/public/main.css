@@ -42,3 +42,8 @@
   align-items: left;
   text-align: left;
 }
+
+.img {
+  width: 500px;
+  height: 100%;
+}
