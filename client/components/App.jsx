@@ -1,11 +1,12 @@
 import React from 'react'
-import {Router} from 'react-router-dom'
+import { Router } from 'react-router-dom'
 const App = () => {
   return (
     <React.Fragment>
-    <Router/>
-    <h1>React development has begun yasssss!</h1>
-    <React.Fragment>
+      <h1>React development has begun!</h1>
+      <Router/>
+
+    </React.Fragment>
   )
 }
 

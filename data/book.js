@@ -4,7 +4,7 @@ const coolBios = {
     { id: 2, chapterTitle: 'Oliver Jeffers', imagePath: '' },
     { id: 3, chapterTitle: 'Patti Smith', imagePath: '' },
     { id: 4, chapterTitle: 'Marlon James', imagePath: '' },
-    { id: 5, chapterTitle: 'person who whistelblowed?', imagePath: '' }
+    { id: 5, chapterTitle: 'Ada Lovelace', imagePath: '' }
   ],
   betterThanHumans: [
     { id: 6, chapterTitle: 'Stitch', imagePath: '' },
