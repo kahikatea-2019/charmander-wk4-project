@@ -4,10 +4,9 @@ const App = () => {
   return (
     <React.Fragment>
     <Router/>
-    <h1>React development has begun!</h1>
+    <h1>React development has begun yasssss!</h1>
     <React.Fragment>
   )
 }
 
 export default App
-
