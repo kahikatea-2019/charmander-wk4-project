@@ -1,13 +1,17 @@
 import React from 'react'
-import { Router } from 'react-router-dom'
-const App = () => {
-  return (
-    <React.Fragment>
-      <h1>React development has begun!</h1>
-      <Router/>
+import Home from './Home.jsx'
+import { HashRouter as Router, Route } from 'react-router-dom'
 
-    </React.Fragment>
-  )
+class App extends React.Component {
+  render () {
+    return (
+      <Router>
+        <React.Fragment>
+          <h1>React development has begun!</h1>
+          <Route exact path= '/' component={Home} />
+        </React.Fragment>
+      </Router>
+    )
+  }
 }
-
 export default App
