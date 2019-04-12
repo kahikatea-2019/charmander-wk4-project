@@ -2,7 +2,7 @@ import React from 'react'
 import { HashRouter as Router, Route } from 'react-router-dom'
 import Nav from './Nav.jsx'
 import Home from './Home.jsx'
-import ContentDisplay from './ContentDisplay.jsx'
+import PageDisplay from './PageDisplay.jsx'
 
 class App extends React.Component {
   render () {
@@ -19,7 +19,7 @@ class App extends React.Component {
               <Route path='/coolbios' component={Nav} />
             </div>
             <div className="book">
-              <Route path='/coolbios' component={ContentDisplay} />
+              <Route path='/:author' component={PageDisplay} />
             </div>
           </div>
         </React.Fragment>
