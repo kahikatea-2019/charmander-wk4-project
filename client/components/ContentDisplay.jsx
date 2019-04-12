@@ -1,6 +1,7 @@
 import React from 'react'
 import PageDisplay from './PageDisplay.jsx'
 
+
 class ContentDisplay extends React.Component {
   render () {
     return (
@@ -10,9 +11,10 @@ class ContentDisplay extends React.Component {
           <PageDisplay />
         </div>
       </React.Fragment>
-
     )
   }
 }
 
 export default ContentDisplay
+
+//Before we use routes, 
