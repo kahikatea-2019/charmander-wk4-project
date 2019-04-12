@@ -14,3 +14,5 @@ const coolBios = {
     { id: 10, chapterTitle: 'Crazy Jane', imagePath: 'https://static.comicvine.com/uploads/scale_small/10/100647/6012194-jane.jpg' }
   ]
 }
+
+export default coolBios

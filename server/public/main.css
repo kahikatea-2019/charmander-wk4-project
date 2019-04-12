@@ -1,4 +1,23 @@
+.heading {
+  text-align: center;
+  font-size: 5em;
+}
 
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 5% 0 5%;
+}
+
+.nav {
+  flex: 30%;
+}
+
+.content {
+  flex: 70%;
+}
+
+/* 
 .content {
   display: flex;
 }
@@ -46,4 +65,4 @@
 .img {
   width: 500px;
   height: 100%;
-}
+} */

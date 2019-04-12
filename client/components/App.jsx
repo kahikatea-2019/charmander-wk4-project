@@ -1,3 +1,35 @@
+// import React from 'react'
+// import { Route } from 'react-router-dom'
+
+// import Nav from './Nav'
+// import Home from './Home'
+
+
+// const App = () => {
+//   return (
+//     <React.Fragment>
+//       <h1 className="heading">Navigating the taxonomic ranks!</h1>
+//       <div className="container">
+//       <div className="nav">
+//       <Route path="/" component={Nav}/>
+//       </div>
+ 
+//         <div className="content">
+//           <Route exact path="/" component={Home}/>
+         
+
+//         </div>
+
+//       </div>
+//     </React.Fragment>
+
+//   )
+// }
+
+// export default App
+
+
+
 import React from 'react'
 import { HashRouter as Router, Route } from 'react-router-dom'
 

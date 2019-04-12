@@ -1,12 +1,12 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react' 
 
-import book from '../../data/book'
+import coolBios from '../../data/book'
 
 class Nav extends React.component {
-bookChapters = Object.keys(book).map(book => {
-  return <li key = {book}><Link to={`/index/${book`}>{book}</Link></li>
-})
+  bookChapters = Object.keys(coolBios).map(item => {
+    return <li key={item}>{item}</li>
+  })
+
 render () {
   return (
     <div className='nav'>
