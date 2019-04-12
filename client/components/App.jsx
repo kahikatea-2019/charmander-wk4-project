@@ -9,11 +9,15 @@ class App extends React.Component {
     return (
       <Router>
         <React.Fragment>
+        <Route exact path= '/' component={Home} />
           <div className="content">
+          <div className="title">
+          <h1>Little-People-Big-Dreams</h1>
+          </div>
+    
             <div className="nav">
-              <Route path='/' component={Nav} />
+              <Route path='/coolbios' component={Nav} />
             </div>
-            <Route exact path= '/' component={Home} />
             <div className="book">
               <Route path='/coolbios' component={ContentDisplay} />
             </div>
@@ -23,4 +27,24 @@ class App extends React.Component {
     )
   }
 }
+
+// class App extends React.Component {
+//   render () {
+//     return (
+//       <Router>
+//         <React.Fragment>
+//           <div className="content">
+//             <div className="nav">
+//               <Route path='/' component={Nav} />
+//             </div>
+//             <Route exact path= '/' component={Home} />
+//             <div className="book">
+//               <Route path='/coolbios' component={ContentDisplay} />
+//             </div>
+//           </div>
+//         </React.Fragment>
+//       </Router>
+//     )
+//   }
+// }
 export default App
