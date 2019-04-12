@@ -1,15 +1,16 @@
 import React from 'react'
 // import { Link } from 'react-router-dom'
 import book from '../../data/book'
+import { Link } from 'react-router-dom'
 
 class Nav extends React.Component {
 
 humanChapters = book.humans.map(item => {
-  return <li key={item.chapterTitle}>{item.chapterTitle}</li>
+  return <li key={item.chapterTitle}><Link to={item.chapterTitle}>{item.chapterTitle}</Link></li>
 })
 
 betterThanHumanChapters = book.betterThanHumans.map(item => {
-  return <li key={item.chapterTitle}>{item.chapterTitle}</li>
+  return <li key={item.chapterTitle}><Link to={item}>{item.chapterTitle}</Link></li>
 })
 
 render () {
