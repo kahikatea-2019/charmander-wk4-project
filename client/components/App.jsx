@@ -1,8 +1,8 @@
 import React from 'react'
 import { HashRouter as Router, Route } from 'react-router-dom'
 
-import Home from './Home.jsx'
-import ContentDisplay from './ContentDisplay.jsx'
+import Home from './Home'
+import ContentDisplay from './ContentDisplay'
 
 class App extends React.Component {
   render () {
