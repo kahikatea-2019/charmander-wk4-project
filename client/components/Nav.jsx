@@ -32,8 +32,6 @@ render () {
 
 export default Nav
 
-
-
 // Want to map through the array 'humans' and the array
 // 'betterThanHumans' and then return the value for
 // chapterTitle
