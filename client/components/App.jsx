@@ -1,17 +1,23 @@
 import React from 'react'
 import { HashRouter as Router, Route } from 'react-router-dom'
-
-import Home from './Home'
-import ContentDisplay from './ContentDisplay'
+import Nav from './Nav.jsx'
+import Home from './Home.jsx'
+import ContentDisplay from './ContentDisplay.jsx'
 
 class App extends React.Component {
   render () {
     return (
       <Router>
         <React.Fragment>
-          <h1>React development has begun!</h1>
-          <Route exact path= '/' component={Home} />
-          <Route path='/coolbios' component={ContentDisplay} />
+          <div className="content">
+            <div className="nav">
+              <Route path='/' component={Nav} />
+            </div>
+            <Route exact path= '/' component={Home} />
+            <div className="book">
+              <Route path='/coolbios' component={ContentDisplay} />
+            </div>
+          </div>
         </React.Fragment>
       </Router>
     )

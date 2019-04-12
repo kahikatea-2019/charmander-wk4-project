@@ -20,7 +20,30 @@
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: left;
-  align-items: center;
+  align-items: left;
+
+
+  padding:0px;
+  margin:0px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:15px;
+  color:#FFF;
+  list-style:none;
+  text-indent:15px;
+    
+
+  background:#3f3f3f;
+  line-height:28px;
+  border-bottom:1px solid #333;
+
+  text-decoration:none;
+  color:#FFF;
+  display:block;
+
+  background:#d40203;
+
+  background:#4b11ec;
+
 }
 
 .home {
