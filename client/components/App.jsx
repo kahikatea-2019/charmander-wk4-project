@@ -15,7 +15,7 @@ class App extends React.Component {
             </div>
             <Route exact path= '/' component={Home} />
             <div className="book">
-              <Route path='/coolbios' component={PageDisplay} />
+              <Route path='/:author' component={PageDisplay} />
             </div>
           </div>
         </React.Fragment>
