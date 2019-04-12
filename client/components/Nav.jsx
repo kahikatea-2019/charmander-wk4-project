@@ -18,6 +18,7 @@ render () {
     <div className="nav">
       <h1>Nav</h1>
       <h3>Humans</h3>
+      <h3><Link to='/'>HOME</Link></h3>
       <ul>
         {this.humanChapters}
       </ul>
