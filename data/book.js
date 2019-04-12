@@ -1,4 +1,4 @@
-const coolBios = {
+const book = {
   humans: [
     { id: 1, chapterTitle: 'Lisa Liukas', imagePath: 'https://flockler.com/thumbs/sites/3187/linda-liukas-potretti-45dd9f59-d304-41d6-96f1-b6538cb2944f_s1260x0_q80_noupscale.jpg' },
     { id: 2, chapterTitle: 'Oliver Jeffers', imagePath: 'https://www.digitalartsonline.co.uk/cmsdata/features/3669459/olive-jeffers-interview1.jpg' },
@@ -15,4 +15,4 @@ const coolBios = {
   ]
 }
 
-export default coolBios
+export default book
